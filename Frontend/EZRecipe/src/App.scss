@@ -15,16 +15,16 @@ a {
 }
 
 // light theme-------------------
-// $accent: #EA580C;
-// $bg: #F8F7F5;
-// $bg-secondary: #535353;
-// $bg-dark: #000000;
+$accent: #EA580C;
+$bg: #F8F7F5;
+$bg-secondary: #535353;
+$bg-dark: #000000;
 
 // dark theme-------------------
-$accent: #EA580C;
-$bg: #141414;
-$bg-secondary: #818181;
-$bg-dark: #F8F7F5;
+// $accent: #EA580C;
+// $bg: #141414;
+// $bg-secondary: #818181;
+// $bg-dark: #F8F7F5;
 
 body {
     background-color: $bg;
