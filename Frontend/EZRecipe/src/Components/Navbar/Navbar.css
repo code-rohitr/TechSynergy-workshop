@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #141414;
+}
+
+.nav-outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  padding: 0 5%;
+}
+.nav-outer-container .logo h2 {
+  color: #F8F7F5;
+}
+.nav-outer-container .nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.nav-outer-container .nav-links ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #818181;
+}
+.nav-outer-container .nav-links ul li:hover {
+  color: #EA580C;
+}/*# sourceMappingURL=Navbar.css.map */

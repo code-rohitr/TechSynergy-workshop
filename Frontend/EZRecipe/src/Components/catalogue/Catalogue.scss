@@ -1,0 +1,43 @@
+@import '../../App.scss';
+
+.cat-outer-container {
+
+    .cat-main-container {
+        height: 85vh;
+        padding: 0 5%;
+
+        .cards-container {
+            @include flexRow();
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .card {
+                border: 1px solid rgb(172, 172, 172);
+                width: 300px;
+                height: auto;
+                margin: 20px 0;
+                padding: 10px;
+                border-radius: 5px;
+
+                .cuisine {
+                    font-size: 14px;
+                    color: $bg-secondary;
+                }
+
+                .title {
+                    color: $bg-dark;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin: 5px 0;
+                }
+
+                .desc {
+                    font-size: 14px;
+                    color: $bg-secondary;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

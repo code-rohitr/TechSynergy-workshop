@@ -1,0 +1,32 @@
+@import '../../App.scss';
+
+.nav-outer-container{
+    @include flexRow();
+    justify-content: space-between;
+    // border: 2px solid red;
+    height: 15vh;
+    padding: 0 5%;
+
+    .logo{
+        h2{
+            color: $bg-dark
+        }
+    }
+
+    .nav-links{
+        ul{
+            @include flexRow();
+            li{
+                list-style: none;
+                margin: 0 20px;
+                font-weight: 500;
+                cursor: pointer;
+                color: $bg-secondary;
+
+                &:hover{
+                    color: $accent;
+                }
+            }
+        }
+    }
+}

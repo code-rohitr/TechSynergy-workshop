@@ -1,0 +1,20 @@
+@import '../../App.scss';
+
+.recipe-outer-container{
+    .recipe-main-container{
+        // border: 2px solid red;
+        height: 85vh;
+        padding: 0 5%;
+        color: $bg-dark;
+
+        h2{
+            font-size: 16px;
+            margin: 20px 0;
+
+            p{
+                font-weight: 400;
+                
+            }
+        }
+    }
+}

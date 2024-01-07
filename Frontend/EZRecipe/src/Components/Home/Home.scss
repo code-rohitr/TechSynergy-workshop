@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.home-outer-container {
+
+    .home-main-container {
+        height: 85vh;
+        @include flexRow();
+        padding: 0 5%;
+
+        .text-container {
+            @include flexCol();
+            align-items: flex-start;
+            // border: 2px solid red;
+
+            h4 {
+                color: $accent;
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 48px;
+                color: $bg-dark;
+                font-weight: 800;
+                margin: 10px 0;
+                width: 90%;
+            }
+
+            ul li{
+                color: $bg-secondary;
+                font-size: 16px;
+            }
+
+        }
+
+        .img-container {
+
+            img {
+                height: 600px;
+            }
+        }
+    }
+
+
+}
